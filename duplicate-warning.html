@@ -1,0 +1,13 @@
+<head>
+  <title>duplicate-warning</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  {{#each list}}
+    <li>{{_id}}</li>
+  {{/each}}
+</template>
